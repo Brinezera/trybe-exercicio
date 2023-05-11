@@ -3,16 +3,19 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <p class="garfo" id="paragraph">Dê uma cor para este parágrafo!</p>
       <h4 id="subtitle">Subtítulo</h4>
-      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p class="garfo" id="second-paragraph">Segundo parágrafo!</p>
     </header>
     <script>
       const paragraph = document.getElementById("paragraph");
       paragraph.style.color = "blue";
       document.getElementById("page-title").innerText = "Homem-Aranha";
       document.getElementById("second-paragraph").innerText = "Aqui estou aprendendo os usos do get id do js com html, massa!";
-      document.getElementById("subtitle").innerText = "Melhor filme de todos esqueça tudo bb"
+      document.getElementById("subtitle").innerText = "Melhor filme de todos esqueça tudo bb";
+      document.getElementsByClassName("garfo")[1] = paragraph.style.color = "red";
+      const subtitle = document.getElementsByTagName('h4')[0];
+      subtitle.style.color = 'red'; 
     </script>
   </body>
 </html>
