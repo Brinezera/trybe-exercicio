@@ -1,1 +1,1 @@
-exercicios referentes a seção 5!
+exercicios referentes a seção 5
